@@ -11,8 +11,28 @@ body {
   width: 30%;
   border-radius: 100%;
 }
+
 .equipe{
   justify-content: space-between;
+}
+.img_boas {
+  height: 35%;
+  width: 35%;
+  display: block;
+  margin: 0 auto;
+}
+
+#Boas_praticas {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  text-align: center;
+  margin: 5%;
+}
+
+#Boas_praticas h1 {
+  text-align: center;
 }
 
 #header {
