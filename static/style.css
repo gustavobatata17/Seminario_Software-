@@ -342,3 +342,14 @@ i.menu-mobile {
     padding: 20px 15px;
   }
 }
+
+#lista_boasPraticas h1{
+  text-align: center;
+}
+
+#lista_boasPraticas{
+ margin: 8%;
+ background-color: rgb(243, 243, 150);
+ border-radius: 5%;
+
+}

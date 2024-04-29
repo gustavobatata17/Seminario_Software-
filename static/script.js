@@ -1,3 +1,4 @@
+
 /* Abre e fecha menu lateral em modo mobile */
 
 const menuMobile = document.querySelector(".menu-mobile");
@@ -60,3 +61,4 @@ btnEnviar.addEventListener("click", ()=>{
 setTimeout(() => {
   document.querySelector('#alerta').style.display = 'none';
 }, 5000)
+
