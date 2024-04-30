@@ -164,3 +164,16 @@ function clicar1(){
       }
     }
   }
+
+  function clicar(numero){
+    let texto = document.getElementById(`texto${numero}`);
+  
+    if (texto) {
+      if (texto.classList.contains("mostrar")) {
+        texto.classList.remove("mostrar");
+      } else {
+        // Adiciona a classe para mostrar a descrição
+        texto.classList.add("mostrar");
+      }
+    }
+}
