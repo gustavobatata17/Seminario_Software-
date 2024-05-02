@@ -355,9 +355,14 @@ i.menu-mobile {
 }
 .img_referencia{
   margin:5%;
-  width: 500%:
+  width: 50%;
   height: 50%; 
 border-radius: 5%;
 }
 
+.img_arquiteto{ 
+  height: 30%;
+  width: 20%;
+  border-radius: 5%;
 
+}
