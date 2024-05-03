@@ -8,9 +8,14 @@ body {
   height: 100%;
 }
 #img_avatar{
-  height: 30%px;
+  height: 30%;
   width: 30%;
   border-radius: 100%;
+}
+.img_mono{
+  width: 35%;
+  height: 35%;
+  border-radius: 8%;
 }
 
 p{
@@ -59,6 +64,7 @@ h1{
   width: 35%;
   display: block;
   margin: 0 auto;
+  border-radius: 5%;
 }
 
 #Boas_praticas {
@@ -156,6 +162,17 @@ color: whitesmoke;
 
 #main {
   margin-left: 300px;
+}
+
+.list-group-item {
+  background-image: url('img/fundo_nome.png');
+  background-size: cover; 
+  background-repeat: repeat;
+  min-height: 50px; 
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 5%;
 }
 
 section#inicio {
@@ -330,9 +347,7 @@ i.menu-mobile {
 [data-anime="right"] {
   transform: translate3d(50px ,0 ,0);
 }
-[data-anime="fecha"]{
-  transform: translate3d(100%, 0, 0);
-}
+
 [data-anime].animate {
   opacity: 1;
   transform: translate3d(0 ,0 ,0);
@@ -414,4 +429,7 @@ border-radius: 5%;
   width: 20%;
   display: flex;
   justify-content: space-between;
+}
+.img_alura{
+ border-radius: 5%;
 }
