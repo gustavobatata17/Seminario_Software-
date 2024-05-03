@@ -143,7 +143,7 @@
                             <li class="list-group-item">
                                 Número: <span class="fw-lighter">31</span>
                             </li>
-                          
+
                         </ul>
                     </div>
                 </div>
@@ -162,7 +162,7 @@
                             <li class="list-group-item">
                                 Número: <span class="fw-lighter">34</span>
                             </li>
-                         
+
                         </ul>
                     </div>
                 </div>
@@ -181,7 +181,7 @@
                             <li class="list-group-item">
                                 Número: <span class="fw-lighter">36</span>
                             </li>
-                           
+
                         </ul>
                     </div>
                 </div>
@@ -302,13 +302,63 @@
 
         <section id="arquitetura">
             <h1 class="text-center" data-anime="down"> Arquitetura de software </h1>
+            <h2 class="text-center" data-anime="right"> estrutura client-server</h2>
+            <p>Uma estrutura cliente-servidor é um modelo de arquitetura de rede em que um programa de computador
+                (cliente), solicita um serviço ou recurso de outro programa de computador (servidor), recebendo uma
+                resposta com as informações solicitadas por meio de protocolos de rede em infraestruturas de TI.
+                A comunicação cliente-servidor é baseada em troca de mensagens, onde o cliente envia requisições e o
+                servidor responde com as informações requisitadas.
+            </p>
+            <div id="arrumasaporra">
+                <img id="alurasoa" src="static/img/aluracs.webp">
+                <div id="inblo">
+
+                    <h4>principais componentes de uma estrutura client-server:</h4>
+                    <ul>
+                        <li onclick="des_cliente()">Cliente:</li>
+                        <div id="leg_cliente"></div>
+                        <li onclick="des_servidor()"> Servidor:</li>
+                        <div id="leg_servidor"></div>
+                        <li onclick="des_rede()">Rede:</li>
+                        <div id="leg_rede"></div>
+                        <li onclick="des_comuni()">Protocolos de comunicação:</li>
+                        <div id="leg_comuni"></div>
+                        <li onclick="des_BD()">Banco de dados:</li>
+                        <div id="leg_BD"></div>
+                        <li onclick="des_API()">Interface de programação de aplicativos (API):</li>
+                        <div id="leg_API"></div>
+                    </ul>
+                </div>
+
+                <p>.</p>
+
+                <h4>características de uma estrutura do tipo client-server</h4>
+                <ul>
+                    <li onclick="des_DT()">Distribuição de tarefas:</li>
+                    <div id="leg_DT"></div>
+                    <li onclick="des_CBM()">comunicação baseada em mensagens:</li>
+                    <div id="leg_CBM"></div>
+                    <li onclick="des_Esca()">Escalabilidade:</li>
+                    <div id="leg_Esca"></div>
+                    <li onclick="des_Centra()">Centralização:</li>
+                    <div id="leg_Centra"></div>
+                    <li onclick="des_Confi()">Confiabilidade:</li>
+                    <div id="leg_Confi"></div>
+                    <li onclick="des_Reu()">Reutilização:</li>
+                    <div id="leg_Reu"></div>
+                    <li onclick="des_CA()">Controle de acesso:</li>
+                    <div id="leg_CA"></div>
+                </ul>
+            </div>
+            <p>.</p>
+
             <h2 class="text-center" data-anime="right"> Padrão MVC:</h2>
             <div class="d-flex justify-content-center  ">
                 <p class="text-center container col-md-4" data-anime="left">O padrão MVC (Model-View-Controller) é uma
                     arquitetura de software que separa a lógica de negócios
                     (Model), a apresentação (View) e o controle das interações do usuário (Controller), facilitando a
                     manutenção, escalabilidade e reutilização do código.</p>
-                <img data-anime="fecha" src="static/img/MVC.png" alt="">
+                <img data-anime="fecha" src="static/img/MVC.png">
             </div>
             <p onclick="his_MVC()" class="text-center " data-anime="up">Clique aqui para saber mais da história do MVC.
             </p>
@@ -355,8 +405,35 @@
 
 
                 <img data-anime="fecha" src="static/img/camadas.png" alt="">
+            </div id="arrumasaporra">
+            <h1 data-anime="left"> Arquitetura orientada a serviços(SOA)</h1>
+            <p>A sigla SOA significa Services Oriented Arquitecture, ou arquitetura orientada a serviços. SOA é um tipo
+                de design de software que torna os componentes reutilizáveis usando interfaces de serviços com uma
+                linguagem de comunicação comum em uma rede.
+                Um serviço é uma unidade ou conjunto de funcionalidades de software independente, desenvolvido para
+                concluir uma tarefa específica, como recuperar determinadas informações ou executar uma operação. Ele
+                contém as integrações de dados e o código necessários para executar uma função de negócios completa.
+                Esses serviços podem ser acessados remotamente e é possível interagir com eles e atualizá-los de maneira
+                independente.
+            </p>
+            <div id="at">
+                <img id="alurasoa" src="static/img/alura.soa.webp" alt="">
+                
+                <div id="vamos">
+                    <ul>
+                        <li id="lisoa" onclick="des_cfsoa()">
+                            <h4>Como funciona uma arquitetura orientada a serviços?</h4>
+                        </li>
+                        <div id="leg_cfsoa"></div>
+                    </ul>
+                    <ul>
+                        <li id="fssoa" onclick="des_fssoa()">
+                            <h4> Funções da arquitetura orientada a serviços</h4>
+                        </li>
+                        <div id="leg_fssoa"></div>
+                    </ul>
+                </div>
             </div>
-
         </section>
         <h1></h1>
 
@@ -436,7 +513,7 @@
 
                     <h2 class="pb-4">Referencias</h2>
                     <!--Base -->
-    
+
                     <section id="portfolio">
                         <div class="container">
                             <div id="carouselPortfolio" class="carousel slide" data-bs-ride="carousel">
@@ -445,36 +522,45 @@
                                         <div class="row row-cols-1 row-cols-md-3 g-4">
                                             <div class="col">
                                                 <div class="card h-100">
-                                                    
+
                                                     <div class="card-body d-flex flex-column">
                                                         <h5 class="card-title">Manual do Arquiteto de Software</h5>
-                                                        <p class="card-text">Clique no link abaixo para visualizar o site</p>
+                                                        <p class="card-text">Clique no link abaixo para visualizar o
+                                                            site</p>
                                                         <div class="mt-auto d-flex justify-content-center">
-                                                            <a href="https://arquiteturadesoftware.online/" target='_blank' class="btn btn-outline-primary"><i class="bi bi-link-45deg"></i></a>
+                                                            <a href="https://arquiteturadesoftware.online/"
+                                                                target='_blank' class="btn btn-outline-primary"><i
+                                                                    class="bi bi-link-45deg"></i></a>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="col">
                                                 <div class="card h-100">
-                                                  
+
                                                     <div class="card-body d-flex flex-column">
                                                         <h5 class="card-title">Dio.me</h5>
-                                                        <p class="card-text">Clique no link abaixo para visualizar o site</p>
+                                                        <p class="card-text">Clique no link abaixo para visualizar o
+                                                            site</p>
                                                         <div class="mt-auto d-flex justify-content-center">
-                                                            <a href="https://www.dio.me/articles/melhores-praticas-no-desenvolvimento-de-software-construindo-produtos-de-qualidade" target='_blank' class="btn btn-outline-primary"><i class="bi bi-link-45deg"></i></a>
+                                                            <a href="https://www.dio.me/articles/melhores-praticas-no-desenvolvimento-de-software-construindo-produtos-de-qualidade"
+                                                                target='_blank' class="btn btn-outline-primary"><i
+                                                                    class="bi bi-link-45deg"></i></a>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="col">
                                                 <div class="card h-100">
-                                                   
+
                                                     <div class="card-body d-flex flex-column">
                                                         <h5 class="card-title">Guia.dev</h5>
-                                                        <p class="card-text">Clique no link abaixo para visualizar o site</p>
+                                                        <p class="card-text">Clique no link abaixo para visualizar o
+                                                            site</p>
                                                         <div class="mt-auto d-flex justify-content-center">
-                                                            <a href="https://guia.dev/pt/pillars/software-architecture/layers-and-architecture-patterns.html" target='_blank' class="btn btn-outline-primary"><i class="bi bi-link-45deg"></i></a>
+                                                            <a href="https://guia.dev/pt/pillars/software-architecture/layers-and-architecture-patterns.html"
+                                                                target='_blank' class="btn btn-outline-primary"><i
+                                                                    class="bi bi-link-45deg"></i></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -483,27 +569,30 @@
                                     </div>
                                     <!-- Adicione mais itens de carrossel conforme necessário -->
                                 </div>
-                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselPortfolio" data-bs-slide="prev">
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselPortfolio"
+                                    data-bs-slide="prev">
                                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                     <span class="visually-hidden">Previous</span>
                                 </button>
-                                <button class="carousel-control-next" type="button" data-bs-target="#carouselPortfolio" data-bs-slide="next">
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselPortfolio"
+                                    data-bs-slide="next">
                                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                     <span class="visually-hidden">Next</span>
                                 </button>
                             </div>
                         </div>
                     </section>
-                    
-                                       
-                        
-    </main>
 
+
+
+    </main>
+    <script src="static/SOA.js"></script>
     <script src="static/camadas.js"></script>
     <script src="static/arquitetura.js"></script>
     <script src="static/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="static/script.js"></script>
     <script src="static/lista.js"></script>
+    <script src="static/estrutura_client-server.js"></script>
 </body>
 
 </html>
